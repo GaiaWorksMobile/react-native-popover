@@ -14,7 +14,8 @@ import {
 var noop = () => {};
 
 var {height: SCREEN_HEIGHT, width: SCREEN_WIDTH} = Dimensions.get('window');
-var DEFAULT_ARROW_SIZE = new Size(10, 5);
+// var DEFAULT_ARROW_SIZE = new Size(10, 5);
+var DEFAULT_ARROW_SIZE = new Size(0, 0);
 
 function Point(x, y) {
   this.x = x;
